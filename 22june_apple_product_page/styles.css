@@ -14,15 +14,18 @@ body {
     background-color: white;
     height: 600px;
     display: flex;
+    border-radius: 10px;
 }
 
 .product_image {
     width: 300px;
-    background-color: black;
     height: 500px;
     position: relative;
     left: 250px;
     top: 50px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 4px 6px 24px -5px rgba(0,0,0,0.75);
 }
 
 .detail_first{
@@ -70,4 +73,41 @@ li {
     font-size: 16px;
     margin-top: 15px;
     font-weight: 700;
+}
+
+.top_section {
+    flex: 0.8;
+    background: radial-gradient(#f4f4f4 30%, #adff2f 70%);
+    border-radius: 10px 10px 0px 0px;
+}
+
+.bottom_section {
+    flex: 0.2;
+    background-color: white;
+    padding-top: 20px;
+    padding-left: 20px;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.main_apple_img {
+    position: absolute;
+    left: -100px;
+    height: 300px;
+    top: 25px;
+}
+
+.apple_img {
+    border: 0.1px solid grey;
+    transform: scale(0.9);
+}
+
+.icon1 {
+    color: white;
+    margin: 15px;
+}
+
+.icon2 {
+    float: right;
+    color: white;
+    margin: 15px;
 }
