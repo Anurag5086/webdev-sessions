@@ -42,6 +42,14 @@ body {
     text-align: start;
 }
 
+i {
+    color: #ef8172;
+}
+
+i:hover {
+    color: #ff4c68;
+}
+
 @media (max-width: 992px) {
     .heading_text {
         text-align: center;
