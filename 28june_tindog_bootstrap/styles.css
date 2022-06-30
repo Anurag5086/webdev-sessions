@@ -1,11 +1,12 @@
 body {
     text-align: center;
+    font-family: "Montserrat";
 }
 
 .coloured_section {
     background-color: #ff4c68;
     padding: 5% 13%;
-    /* max-height: 60vh; */
+    height: 60vh;
 }
 
 .navbar-brand {
@@ -26,7 +27,7 @@ body {
 }
 
 .title_img {
-    width: 25%;
+    width: 22%;
     transform: rotate(20deg);
     position: absolute;
     right: 25%;
@@ -34,12 +35,12 @@ body {
 
 .features_section {
     position: relative;
-    padding: 10%;
+    padding: 5% 10%;
     background-color: white;
 }
 
 .heading_btn {
-    text-align: start;
+    float: left;
 }
 
 i {
@@ -50,13 +51,63 @@ i:hover {
     color: #ff4c68;
 }
 
+.slide-img {
+    height: 8rem;
+    border-radius: 10rem;
+    margin: 0px auto;
+}
+
+.carousel {
+    background-color: #ef8172;
+}
+
+.carousel-item {
+    padding: 10% 10% 5% 10%;
+}
+
+.testimonials {
+    background-color: #ef8172;
+}
+
+.company-img {
+    width: 15%;
+}
+
+.slide-text {
+    font-size: 3rem;
+    font-family: "Montserrat-Bold";
+    line-height: 1.5;
+}
+
+.pricing-section {
+    padding: 5% 10%;
+}
+
+.sign-up-btn {
+    width: 100%;
+}
+
+.card-title {
+    font-size: 2.5rem;
+    font-family: "Montserrat-Bold";
+}
+
+.download_section {
+    background-color: #ff4c68;
+    padding: 7% 10%;
+}
+
 @media (max-width: 992px) {
     .heading_text {
         text-align: center;
     }
 
     .heading_btn {
-        text-align: center;
+        float: none;
+    }
+
+    .coloured_section {
+        height: fit-content;
     }
 
     .title_img {
