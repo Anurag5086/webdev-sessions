@@ -1,5 +1,6 @@
 .header-img {
     background-image: url("./images/image2.jpg");
-    height: 500px;
+    height: 50vh;
     background-size: cover;
+    padding-top: 8rem;
 }
