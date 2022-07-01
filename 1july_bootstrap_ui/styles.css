@@ -1,0 +1,5 @@
+.header-img {
+    background-image: url("./images/image2.jpg");
+    height: 500px;
+    background-size: cover;
+}
