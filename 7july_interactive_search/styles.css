@@ -1,0 +1,36 @@
+body {
+    background-color: #775bf1;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+}
+
+.input {
+    font-size: 1.3rem;
+    outline: none;
+    border: none;
+    width: 0;
+    padding: 0;
+    transition: width 0.3s ease;
+    height: 4.1rem;
+}
+
+.btn {
+    height: 4.1rem;
+    border: none;
+    width: 4rem;
+    cursor: pointer;
+    background-color: white;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.active{
+    width: 300px;
+    height: 4.1rem;
+}
