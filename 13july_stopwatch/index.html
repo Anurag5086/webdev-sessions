@@ -9,13 +9,24 @@
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="stopwatch">
+    <div class="stopwatch" >
         <h1>STOPWATCH</h1>
         <div class="circle">
-            <span class="time">00:00:00:000</span>
+            <span class="time" id="time">00:00:00:000</span> 
         </div>
     </div>
     
+    <div class="controls">
+        <button class="playpausebtn">
+            <img src="./images/play-button.svg" alt="" class="playbtnimg" id="playbtn">
+            <img src="./images/pause-button.svg" alt="" class="pausebtnimg" id="pausebtn">
+        </button>
+
+        <button class="resetbtn">
+            <img src="./images/reset-button.svg" alt="" class="resetbtnimg" id="resetbtn">
+        </button>
+    </div>
+
     <script src="index.js"></script>
 </body>
 </html>
