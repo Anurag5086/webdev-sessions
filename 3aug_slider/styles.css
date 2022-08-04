@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    height: 100vh;
+}
+
+.slider-container {
+    overflow: hidden;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+
+.left-slide {
+    width: 35%;
+    height: 100%;
+}
+
+.left-slide > div {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.left-slide h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.right-slide {
+    height: 100%;
+    width: 65%;
+}
+
+.eagle-img {
+    background-image: url('./images/eagle.jpeg');
+}
+
+.castle-img {
+    background-image: url('./images/castle.jpeg');
+}
+
+.sky-img {
+    background-image: url('./images/mountains.jpeg');
+}
+
+.nature-img {
+    background-image: url('./images/flower.jpeg');
+}
+
+
+.right-slide > div {
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+button {
+    background-color: white;
+    cursor: pointer;
+    color: #aaaaaa;
+    border: none;
+    font-size: 1rem;
+    padding: 1rem;
+}
+
+.slider-container .action-buttons button {
+    position: absolute;
+    left: 35%;
+    top: 50%;
+}
+
+.slider-container .action-buttons .down-button {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transform: translateX(-100%);
+}
+
+.slider-container .action-buttons .up-button {
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    transform: translateY(-100%);
+}
