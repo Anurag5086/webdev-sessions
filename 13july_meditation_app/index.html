@@ -17,27 +17,31 @@
         </div>
 
         <div class="time-select">
-            <button>2 Minutes</button>
-            <button>5 Minutes</button>
-            <button>10 Minutes</button>
+            <button data-time="120">2 Minutes</button>
+            <button data-time="300" class="medium-mins">5 Minutes</button>
+            <button data-time="600" class="long-mins">10 Minutes</button>
         </div>
 
         <div class="player-container">
             <audio class="song">
                 <source src="./audio/rain.mp3">
             </audio>
-            <img src="./svg/play.svg" alt="play-btn"></img>
-            <img src="./svg/pause.svg" alt="play-btn"></img>
+            <img src="./svg/play.svg" alt="play-btn" class="play"></img>
+            <!-- <img src="./svg/pause.svg" alt="pause-btn" class="pause"></img> -->
 
-            <img src="./svg/track-outline.svg" alt="tracking-outline">
-            <img src="./svg/moving-outline.svg" alt="moving-outline">
-            <img src="./svg/replay.svg" alt="replay-btn">
+            <svg class="track-outline" width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="white" stroke-width="20"/>
+            </svg>
+            <svg class="moving-outline" width="453" height="453" viewBox="0 0 453 453" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="226.5" cy="226.5" r="216.5" stroke="#018EBA" stroke-width="20"/>
+            </svg>
+            <img src="./svg/replay.svg" alt="replay-btn" class="replay">
             <h3 class="time-display">00:00</h3>
         </div>
 
         <div class="sound-picker">
-            <button><img src="./svg/rain.svg" alt="rain"></button>
-            <button><img src="./svg/beach.svg" alt="beach"></button>
+            <button data-sound="./audio/rain.mp3" data-video="./video/rain.mp4"><img src="./svg/rain.svg" alt="rain"></button>
+            <button data-sound="./audio/beach.mp3" data-video="./video/beach.mp4"><img src="./svg/beach.svg" alt="beach"></button>
         </div>
     </div>
     <script src="index.js"></script>
